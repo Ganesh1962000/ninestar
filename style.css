@@ -8,9 +8,6 @@
 	color: #ee7843 !important;
 	transition: all 0.5s ease;
 }
-.firstnav{
-}
-
 /*-----header finish-----*/
 /*-----firstsection start-----*/
 
@@ -239,7 +236,7 @@
 .port-img::before{
 	content:"";
 	position: absolute;
-	background-color: #8d808080;
+	background-color: rgba(31, 53, 72, 0.6);
 	transition: all ease 0.5s;
 	top: 0;
 	bottom: 0;
@@ -484,18 +481,14 @@
 	right: 0;
 	left: 0;
 }
-.client6 img{
-	filter: grayscale(50%);
+.item{
+	width: 60%;
+	margin: auto;
+	filter: grayscale(30%);
 }
-.client6 img:hover{
+.item:hover{
 	filter: none;
 }
-
-
-
-
-
-
 /*-----seventhsection finish------*/
 
 .eighthsection{
@@ -608,7 +601,7 @@
 	transition: all ease-in-out 1s;
 }
 .newsletter .input{
-	width: 65%;
+	width: 55%;
 	padding: 0.6rem 0rem;
 	border-radius: 3px;
 	border: none;
